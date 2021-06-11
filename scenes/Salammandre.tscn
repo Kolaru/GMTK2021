@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://sprites/salammandre.png" type="Texture" id=1]
+[ext_resource path="res://scenes/Salammandre.gd" type="Script" id=2]
+
+[node name="Salammandre" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 5.31339, 3.25932 )
+scale = Vector2( 0.0802894, 0.0802894 )
+texture = ExtResource( 1 )
